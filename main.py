@@ -101,5 +101,5 @@ class RestEye:
 
 if __name__ == "__main__":
     image_path = "display.png" 
-    app = RestEye(image_path, rest_time=600, work_time=5)
+    app = RestEye(image_path, rest_time=600, work_time=2400) # 원하는 시간 알아서 설정 (초 단위)
     app.start()
